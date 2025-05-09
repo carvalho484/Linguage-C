@@ -5,7 +5,7 @@ Considere que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
 
 Entrada
 O arquivo de entrada contém 3 valores com uma casa decimal, de dupla precisão (double).
-
+09/05/2025
 *******************************************************************************/
 #include <stdio.h>
 
