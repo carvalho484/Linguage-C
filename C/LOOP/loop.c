@@ -8,7 +8,7 @@ Para isso, utiliza-se a função fmod da biblioteca math.h,
 que permite calcular o resto da divisão entre números do tipo double. 
 Dentro do loop, o número é exibido junto com a indicação de "par" ou "ímpar", 
 e é incrementado a cada repetição até que atinja 10, encerrando o programa.
-
+09/05/2025
 *******************************************************************************/
 #include <stdio.h>
 #include <math.h>
