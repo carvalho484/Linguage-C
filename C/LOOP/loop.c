@@ -1,14 +1,11 @@
 /******************************************************************************
-O código desenvolvido tem como objetivo praticar o uso da estrutura de repetição while em linguagem C. 
-Ele solicita ao usuário que digite um número entre 0 e 10. 
-Caso o valor esteja fora desse intervalo, uma mensagem de erro é exibida. 
-Se o valor for válido, o programa entra em um loop que vai do número informado até 10, 
-verificando em cada passo se o número atual é par ou ímpar. 
-Para isso, utiliza-se a função fmod da biblioteca math.h, 
-que permite calcular o resto da divisão entre números do tipo double. 
-Dentro do loop, o número é exibido junto com a indicação de "par" ou "ímpar", 
-e é incrementado a cada repetição até que atinja 10, encerrando o programa.
-09/05/2025
+Programa: Verificar Par ou Ímpar
+Autor: Lucas Carvalho
+Data: 09/05/2025
+Descrição: O programa solicita um número entre 0 e 10. Se o número for válido, 
+usa um loop while para verificar se os números de entrada até 10 
+são pares ou ímpares utilizando a função fmod da biblioteca math.h. 
+O número é exibido junto com sua classificação e incrementado até atingir 10.
 *******************************************************************************/
 #include <stdio.h>
 #include <math.h>
