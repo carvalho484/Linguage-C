@@ -1,5 +1,5 @@
 /******************************************************************************
-Programa: Multiplos de um Número.
+Programa: Multiplos de um Numero.
 Autor: Lucas Carvalho
 Data: 15/05/2025
 Descrição: Solicita um numero positivo e exibe os 
