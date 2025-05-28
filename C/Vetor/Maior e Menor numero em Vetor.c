@@ -36,8 +36,8 @@ int main(void)
 	}
 
 	printf("\n------------------------------------------------------\n");
-	printf("O maior numero e: %d (pocisC#o: %d).\n", maior, v_maior);
-	printf("O menor numero e: %d (pocisC#o: %d).\n", menor, v_menor);
+	printf("O maior numero e: %d (pocisão: %d).\n", maior, v_maior);
+	printf("O menor numero e: %d (pocisão: %d).\n", menor, v_menor);
 	printf("--------------------------------------------------------\n");
 
 	return 0;
