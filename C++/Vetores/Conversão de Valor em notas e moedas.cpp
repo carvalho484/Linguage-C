@@ -17,8 +17,8 @@ int main()
     int i;
     double resultado_moedas, valor;
     
-    int notas[6] {100, 50, 20, 10, 5, 2};
-    double moedas[6] {1, 0.50, 0.25, 0.10, 0.05, 0.01};
+    int notas[5] {100, 50, 20, 10, 5, 2};
+    double moedas[5] {1, 0.50, 0.25, 0.10, 0.05, 0.01};
 
     cout << "Qual e o valor a ser convertido:" << endl;
     cin >> valor;
