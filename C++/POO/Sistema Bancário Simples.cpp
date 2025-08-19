@@ -122,6 +122,9 @@ int main()
         cout << "Seu historico: " << endl;
         
         conta.mostrar_historico();
+        cout << "Precione enter para continuar" << endl;
+        cin.ignore(); cin.get();
+        limpatela();
     }
     
     if(opcao == 4){
