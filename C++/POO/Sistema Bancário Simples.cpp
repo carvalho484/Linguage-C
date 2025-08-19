@@ -52,11 +52,15 @@ class conta_bancaria{
       }
       
       void sacar(double retirar = 0){
-        if(saldo >= retirar){
+        if(retirar > 0 && saldo >= retirar){
           saldo -= retirar;
           historico.push_back({"sacar", retirar, saldo});
         }else{
-          cout << "Saldo insuficiente" << endl;
+          limpatela();
+          cout << "Saldo insuficiente" << endl << endl;
+          cout << "Precione enter para continuar" << endl;
+          cin.ignore(); cin.get();
+          limpatela();
         }
       }
       
@@ -111,7 +115,6 @@ int main()
             conta.sacar(SC);
         }
         
-        limpatela();
     }
     
     if(opcao == 3){
